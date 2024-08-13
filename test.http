@@ -1,0 +1,16 @@
+
+###
+
+POST http://localhost:4000/todos
+content-type: application/json
+
+{
+    "todo": "Sign contract",
+    "date": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
+
+###
+GET http://localhost:4000/todos
+
+###
+GET http://localhost:4000/todos/74837c98-1a23-4779-900d-117b4db4c0f4
